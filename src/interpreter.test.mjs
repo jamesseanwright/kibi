@@ -9,7 +9,7 @@ describe("Kibi interpreter end-to-end tests", () => {
 
   describe("Nested expressions", () => {
     it("should return the expected result", () => {
-      const program = '(+ 5 (- 7 4) (* 2 4 (/ 8 (+ 1 1))))';
+      const program = "(+ 5 (- 7 4) (* 2 4 (/ 8 (+ 1 1))))";
 
       expect(run(program)).toBe(40);
     });
