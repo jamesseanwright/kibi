@@ -49,7 +49,7 @@ const parse = (x) => {
 
     if (!Number.isNaN(Number.parseInt(token))) {
       const [value, n] = scanValue(i);
-      const child = createNode("number", value);
+      const child = createNode("number", Number.parseInt(value));
 
       offset = n;
       node.children.push(child);
