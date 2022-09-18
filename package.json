@@ -1,0 +1,13 @@
+{
+  "name": "kibi",
+  "description": "A Lisp dialect with a JavaScript interpreter that can be minified to 1024 bytes ",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "format": "prettier --write src"
+  },
+  "devDependencies": {
+    "jest": "29.0.3",
+    "prettier": "2.7.1"
+  }
+}
